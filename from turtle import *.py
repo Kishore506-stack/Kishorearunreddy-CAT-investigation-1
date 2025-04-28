@@ -1,0 +1,12 @@
+import turtle
+screen=turtle.Screen()
+screen.bgcolor("White")
+pen=turtle.Turtle()
+pen.color("Blue")
+pen.speed(2)
+pen.forward(100)
+pen.right(90)
+pen.forward(300)
+pen.right(90)
+pen.hideturtle()
+turtle.done()
